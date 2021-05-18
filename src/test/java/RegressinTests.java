@@ -53,8 +53,6 @@ public class RegressinTests {
                 .body("job", is("leader"));
     }
 
-
-
     @Test
     void successUpdateTest() {
         given()
